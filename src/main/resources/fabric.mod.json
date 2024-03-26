@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mininghelmet",
+	"version": "${version}",
+	"name": "Mining Helmet",
+	"description": "A mining helmet that helps you explore around dark caves without the need for torches.",
+	"authors": [
+		"CysticTurtle85"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mininghelmet/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cystic.mininghelmet.MiningHelmet"
+		],
+		"client": [
+			"net.cystic.mininghelmet.MiningHelmetClient"
+		],
+		"fabric-datagen": [
+			"net.cystic.mininghelmet.MiningHelmetDataGenerator"
+		]
+	},
+	"mixins": [
+		"mininghelmet.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
