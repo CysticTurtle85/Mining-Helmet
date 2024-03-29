@@ -1,5 +1,6 @@
 package net.cystic.mininghelmet;
 
+import net.cystic.mininghelmet.custom.ModLootTables;
 import net.cystic.mininghelmet.item.ModItemGroups;
 import net.cystic.mininghelmet.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		//ModLootTables.registerLootTables();
 	}
 }
