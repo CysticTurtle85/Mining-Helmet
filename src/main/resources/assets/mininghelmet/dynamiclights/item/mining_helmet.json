@@ -1,5 +1,5 @@
 {
   "item": "mininghelmet:mining_helmet",
-  "luminance": "minecraft:torch",
+  "luminance": "minecraft:lantern",
   "water_sensitive": true
 }
