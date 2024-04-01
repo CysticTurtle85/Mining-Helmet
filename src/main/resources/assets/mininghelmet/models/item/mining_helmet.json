@@ -1,6 +1,7 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "mininghelmet:item/mining_helmet"
+		"layer0": "mininghelmet:item/mining_helmet/0",
+		"layer1": "mininghelmet:item/mining_helmet/1"
 	}
 }

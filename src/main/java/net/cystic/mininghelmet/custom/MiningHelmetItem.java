@@ -7,6 +7,7 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.DyeableArmorItem;
 import net.minecraft.item.ItemStack;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.animatable.client.RenderProvider;
@@ -18,7 +19,7 @@ import software.bernie.geckolib.core.object.PlayState;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-public class MiningHelmetItem extends ArmorItem implements GeoItem {
+public class MiningHelmetItem extends DyeableArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
     private final Supplier<Object> renderProvider = GeoItem.makeRenderer(this);
     public MiningHelmetItem(ArmorMaterial material, Type type, Settings settings) {
