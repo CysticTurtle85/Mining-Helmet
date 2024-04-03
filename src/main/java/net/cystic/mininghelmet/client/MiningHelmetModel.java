@@ -14,7 +14,7 @@ public class MiningHelmetModel extends GeoModel<MiningHelmetItem> {
 
     @Override
     public Identifier getTextureResource(MiningHelmetItem animatable) {
-        return new Identifier(MiningHelmet.MOD_ID, "textures/armour/mining_helmet.png");
+        return new Identifier(MiningHelmet.MOD_ID, "textures/models/armor/mining_helmet_layer_1.png");
     }
 
     @Override

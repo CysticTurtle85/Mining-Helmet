@@ -1,6 +1,5 @@
 package net.cystic.mininghelmet;
 
-import net.cystic.mininghelmet.custom.ModLootTables;
 import net.cystic.mininghelmet.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
