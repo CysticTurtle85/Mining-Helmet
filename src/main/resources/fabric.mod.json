@@ -3,7 +3,7 @@
 	"id": "mininghelmet",
 	"version": "${version}",
 	"name": "Mining Helmet",
-	"description": "A mining helmet that helps you explore around dark caves without the need for torches.",
+	"description": "A Dyeable Mining Helmet",
 	"authors": [
 		"CysticTurtle85"
 	],
