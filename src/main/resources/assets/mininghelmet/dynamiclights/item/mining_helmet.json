@@ -1,5 +1,9 @@
 {
+//#if SODIUM_DYNAMIC_LIGHTS
   "item": "mininghelmet:mining_helmet",
-  "luminance": "minecraft:lantern",
+//#else
+  "match": { "items": "mininghelmet:mining_helmet" },
+//#endif
+  "luminance": 15,
   "water_sensitive": true
 }

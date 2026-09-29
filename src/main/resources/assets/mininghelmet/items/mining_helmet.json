@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mininghelmet:item/mining_helmet",
+    "tints": [{ "type": "minecraft:dye", "default": -6265536 }]
+  }
+}

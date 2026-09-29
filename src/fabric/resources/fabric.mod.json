@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${description}",
+  "authors": ["${authors}"],
+  "contact": {
+    "homepage": "${homepage}",
+    "sources": "${sources}",
+    "issues": "${issues}"
+  },
+  "license": "${license}",
+  "icon": "assets/mininghelmet/icon.png",
+  "environment": "*",
+  "entrypoints": {
+//#if MC < 1.21.4
+    "client": ["net.cystic.mininghelmet.fabric.MiningHelmetFabricClient"],
+//#endif
+    "main": ["net.cystic.mininghelmet.fabric.MiningHelmetFabric"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_min}",
+    "minecraft": "${minecraft_range_fabric}",
+    "java": ">=${java_version}",
+    "fabric-api": "*",
+    "geckolib": "*"
+  },
+  "recommends": {
+    "lambdynlights": "*"
+  }
+}

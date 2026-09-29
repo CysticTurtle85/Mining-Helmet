@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+//#if MC >= 1.21.2
+    "minecraft:iron_helmet",
+    "minecraft:lantern"
+//#else
+    { "item": "minecraft:iron_helmet" },
+    { "item": "minecraft:lantern" }
+//#endif
+  ],
+  "result": {
+//#if MC >= 1.20.5
+    "id": "mininghelmet:mining_helmet",
+//#else
+    "item": "mininghelmet:mining_helmet",
+//#endif
+    "count": 1
+  }
+}
